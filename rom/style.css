@@ -1,0 +1,135 @@
+.text {
+   color:black;
+   font-family: Helvetica;
+   margin-left: 40px;
+}
+p {
+   color:black;
+   font-family: Helvetica;
+   margin-left: 40px;
+}
+h1 {
+   color:black;
+   font-family: Helvetica;
+   margin-left: 30px;
+   margin-top: 0;
+   padding-top: 30px; 
+}
+.yellow {
+   color: yellow;
+}
+.image {
+    height: 200px;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+.little {
+    font-size: 12pt;
+}
+body {
+    margin:50px;
+    overflow: auto;
+    background: url(../ROM/IMGAGES/images.jpg);
+    background-color: #fffcfc;
+}
+.text-body {
+    height: 1000px;
+    margin-top: 140px;
+    margin-left: -60px;
+    margin-right: -60px;
+    background-size: cover;
+    background-color: white;
+    width: 12000px;
+    
+}
+.nav {
+    font-size: 40px;
+    text-transform: uppercase;
+    background-color: #ededed;
+    display: block;
+
+    
+    
+}
+.nav_link {
+    margin-left: 30px;
+    margin-top: 50%;
+    margin-bottom: 100px;
+    color: #2393a8;
+    text-decoration: none;
+    text-align: center;
+}
+.nav_link:hover{
+    font-size: 40px;
+    color: #134e59;
+    text-transform: uppercase;
+}
+.header__inner {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a5a8a8;
+    font-family: Helvetica;
+    padding-top: 20px;
+}
+.header {
+    width: 100%;
+    padding-top: 10;
+    position: absolute;
+    top: 120px;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #ededed; 
+    width: 100000px; 
+    height: 70px; 
+    position:absolute;
+    top: 70px;
+}
+.img-container{
+    height: 220px;
+    width: 100%;
+    overflow: auto;
+    
+}
+.header__higer {
+    width: 100%;
+    height: 70px;
+    background-color: #034c59;
+    position: absolute;
+    top: -70px;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    margin-bottom: -10px;
+    padding-bottom: 0px;
+}
+.header_logo {
+    font-family: helvetica;
+    font-size: 32px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-align: left, top;
+    text-decoration: none;
+}
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+    margin-left: 40px;
+}
+.download-title{
+    margin-bottom: 30px;
+    margin-left: 40px;
+    font-family: helvetica, sans-serif;
+    padding-top: 10px;
+    
+    
+}
+.download-title p{
+    margin-top: 150px;
+}
